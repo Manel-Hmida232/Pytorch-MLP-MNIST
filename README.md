@@ -5,7 +5,7 @@ This project involves using PyTorch, a popular machine learning library, to crea
     The project starts by loading the MNIST dataset, which consists of 60,000 training images and 10,000 test images of handwritten digits.
     The images are pre-processed by transforming them into PyTorch tensors and normalizing them to have a mean of 0.0 and a standard deviation of 1.0.
     
-2. Model Configuration:
+2.Model Configuration:
     The MLP model is built using PyTorch, including the necessary libraries like torch, torch.nn, and torch.optim.
     The device for training is configured to use the GPU if available; otherwise, it falls back to using the CPU.
    
